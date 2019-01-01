@@ -2,6 +2,5 @@ Here are the files for my SUMO/TraCI [tutorial](https://www.youtube.com/watch?v=
 
 
 
-##### License
 
 Released under the [MIT License](http://www.opensource.org/licenses/MIT).
