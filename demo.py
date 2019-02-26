@@ -26,7 +26,6 @@ def get_options():
 
 # contains TraCI control loop
 def run():
-
     step = 0
     while traci.simulation.getMinExpectedNumber() > 0:
         traci.simulationStep()
