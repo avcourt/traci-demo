@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Thu 30 May 2019 11:47:07 AM CDT by SUMO gui Version 0.32.0
+<!-- generated on Tue 30 Jul 2019 01:50:32 PM CDT by SUMO gui Version 0.32.0
 <?xml version="1.0" encoding="UTF-8"?>
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="/home/avcourt/repos/traci-demo/demo.net.xml"/>
-        <route-files value="/home/avcourt/repos/traci-demo/demo.rou.xml"/>
-        <additional-files value="/home/avcourt/repos/traci-demo/demo.add.xml"/>
+        <net-file value="demo.net.xml"/>
+        <route-files value="demo.rou.xml"/>
+        <additional-files value="demo.add.xml"/>
     </input>
 
+    <output>
+        <tripinfo-output value="tripinfo.xml"/>
+    </output>
+
+    <traci_server>
+        <remote-port value="44987"/>
+    </traci_server>
+
 </configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+</detector>
